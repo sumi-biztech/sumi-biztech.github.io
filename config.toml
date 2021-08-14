@@ -5,7 +5,7 @@ languageCode = "ja-jp"
 title = "Shiomi Sumi"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-
+canonifyurls = true
 
 
 [params]
