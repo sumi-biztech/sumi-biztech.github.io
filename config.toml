@@ -1,0 +1,235 @@
+# Page settings
+
+baseURL = "https://sumi-biztech.github.io/"
+languageCode = "ja-jp"
+title = "Shiomi Sumi"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#112557"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Shiomi Sumi"
+        tagline = "Business Technology Administrator"
+        avatar = "sumi.png"
+
+
+
+    [params.contact]
+        enable = true
+        location = "Osaka, Japan"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "sumi@corp-engr.com"
+        [[params.contact.list]]
+        icon = "fab fa-twitter-square"
+        url = "#"
+        text = "https://twitter.com/suemin_jp"
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Microsoft365/Okta/Jamf"
+        [[params.skills.list.items]]
+        details = "AWS/Slack/oVice"
+        [[params.skills.list.items]]
+        details = "PHP/javascript/bash"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Security/Management/Governance"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc Computer Science"
+        university = "Osaka Institute of Technology"
+        dates = "2007 - 2011"
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Japanese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Not Good"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Photography"
+
+
+
+    [params.summary]
+        enable = true
+	text = "スタートアップで働く情シスのお姉さんです。 組織のビジネスを加速させ、楽しく働く環境を支えるインフラについて日々試行錯誤。社外では情シス・AWS・セキュリティを中心に情報収集をしたりコミュニティ活動を行っています。現在、AWS Startup Community コアメンバーとしてスタートアップのためのAWSコミュニティの運営、AWS Community Builders Management & Government + Migration topic Programに参加。プライベートでは2人のかわいい息子たちに振り回されつつ、勉強とダイエットに励む日々。 I'm an IT Administrator in a startup, I think about what I can do as an IT admin to accelerate the business.I’m a mother of two boys.I’ve been swamped with work and private life and sometimes it gets hard, but I am able to do my best with the support of friends."
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "IT Admin / Business Technology"
+        dates = "2020.10 - Present"
+        company = "O-KUN Inc."
+	details = "1人目の情シス専任メンバーとして、バックオフィス全般のシステムを担当。成長スピードの速いスタートアップの現場で、ゼロトラストネットワークの概念を取り入れつつ、利便性が高くセキュアなコーポレートITの構築に取り組んでいます。"
+        [[params.experience.list.items]]
+        details = "IdP, MDM等各種ツールの導入・運用"
+        [[params.experience.list.items]]
+        details = "セキュリティポリシー・ガイドラインの策定"
+        [[params.experience.list.items]]
+        details = "オフィス移転およびそれに伴う物理セキュリティの見直し"
+
+        [[params.experience.list]]
+        title = "Cyber Security Consultant"
+        dates = "2020.1 - 2020.9"
+        company = "Major Enterprise"
+	details = ""
+
+        [[params.experience.list]]
+        title = "IT admin"
+        dates = "2015.10 - 2019.12"
+        company = "Kobe Digital Labo, Inc."
+	details = ""
+
+        [[params.experience.list]]
+        title = "Developer"
+        dates = "2011.4 - 2015.9"
+        company = "Kobe Digital Labo, Inc."
+	details = ""
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "AWS Startup Community"
+        meta = "Organizing"
+	tagline = ""
+
+        [[params.projects.list]]
+        title = "JAWS DAYS 2021 re:connect 登壇"
+        meta = "Speaker"
+	tagline = "組織でAWSを使い始めるときに考えたいアカウントとコストの管理"
+
+        [[params.projects.list]]
+        title = "JAWS-UG 朝会 登壇"
+        meta = "Speaker"
+	tagline ="無料で使えるCloudEndureでお金を溶かしちゃった話"
+
+        [[params.projects.list]]
+        title = "JAWS-UG 初心者支部 登壇"
+        meta = "Speaker"
+        tagline ="AWSを使い始めるときに考えたい AWSアカウントとユーザの管理"
+
+        [[params.projects.list]]
+        title = "JPAUG 登壇"
+        meta = "Speaker"
+        tagline ="アプリ開発者と管理者が「ともに作る」PowerPlatformの世界"
+
+        [[params.projects.list]]
+        title = "corp-engr Slack 交流会in Osaka 主催"
+        meta = "Speaker & Organizer"
+        tagline =""
+
+        [[params.projects.list]]
+        title = "corp-engr Slack 交流会#2 登壇"
+        meta = "Speaker"
+        tagline ="IT企業の情シスが受けた本当にあった問い合わせの話"
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/sumi-biztech"
+        title = "sumi-biztech"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/sumi-lady"
+        title = "Shiomi Sumi"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/suemin_jp"
+        title = "@suemin_jp"
+
+
+
+
+
